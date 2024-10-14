@@ -1,99 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Denis Senkevich | Software Engineer - Personal website with contact information and privacy policy.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Denis Senkevich | Software Engineer - Personal website with contact information and privacy policy."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Denis Senkevich | Software Engineer</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-        }
-        section {
-            padding: 20px;
-            max-width: 800px;
-            margin: 20px auto;
-            background-color: #fff;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        section p {
-            margin-bottom: 20px;
-        }
-        a {
-            color: #0073e6;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
-            position: relative;
-            width: 100%;
-            bottom: 0;
-        }
-        .contact {
-            margin-top: 30px;
-        }
-        .contact ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .contact ul li {
-            margin-bottom: 10px;
-        }
-        .contact ul li a {
-            display: inline-block;
-            padding: 10px 15px;
-            background-color: #0073e6;
-            color: #fff;
-            border-radius: 5px;
-        }
-        .contact ul li a:hover {
-            background-color: #005bb5;
-        }
+      body {
+        font-family: Roboto, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-between;
+        line-height: 1.6;
+      }
+      section {
+        padding: 20px;
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #fff;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      section p {
+        margin-bottom: 20px;
+      }
+      a {
+        color: #0073e6;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+      }
+      .contact {
+        margin-top: 30px;
+      }
+      .contact ul {
+        width: 500px;
+        list-style-type: none;
+        padding: 0;
+      }
+      .contact ul li {
+        margin-bottom: 10px;
+        display: flex;
+      }
+      .key {
+        display: flex;
+        width: 100px;
+      }
+      .contact ul li a {
+        display: inline-block;
+        padding: 4px 8px;
+        background-color: #0073e6;
+        color: #fff;
+        border-radius: 5px;
+      }
+      .contact ul li a:hover {
+        background-color: #005bb5;
+      }
     </style>
-</head>
-<body>
-    <header>
-        <h1>Denis Senkevich | Software Engineer</h1>
-    </header>
+  </head>
+  <body>
     <section>
-        <p>Welcome to my personal website hosted on GitHub Pages. I'm a software engineer specializing in building web applications and other digital products.</p>
+      <p>
+        Welcome to my personal website hosted on GitHub Pages. I'm a software
+        engineer specializing in building web applications and other digital
+        products.
+      </p>
 
-        <h2>Contact Information</h2>
-        <p>If you'd like to get in touch, you can reach me at the following platforms:</p>
-        <div class="contact">
-            <ul>
-                <li>Email: <a href="mailto:senkevichdv@me.com">senkevichdv@me.com</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/denis-senkevich-25a1a4103/" target="_blank">Connect on LinkedIn</a></li>
-                <li>GitHub: <a href="https://github.com/senkevichdv" target="_blank">View my GitHub</a></li>
-                <li>Instagram: <a href="https://www.instagram.com/desenkevich" target="_blank">Follow me on Instagram</a></li>
-            </ul>
-        </div>
+      <h2>Contact Information</h2>
+      <p>
+        If you'd like to get in touch, you can reach me at the following
+        platforms:
+      </p>
+      <div class="contact">
+        <ul>
+          <li>
+            <span class="key">Email:</span>
+            <a href="mailto:senkevichdv@me.com">senkevichdv@me.com</a>
+          </li>
+          <li>
+            <span class="key">LinkedIn:</span>
+            <a
+              href="https://www.linkedin.com/in/denis-senkevich-25a1a4103/"
+              target="_blank"
+              >Connect on LinkedIn</a
+            >
+          </li>
+          <li>
+            <span class="key">GitHub:</span>
+            <a href="https://github.com/senkevichdv" target="_blank"
+              >View my GitHub</a
+            >
+          </li>
+          <li>
+            <span class="key">Instagram:</span>
+            <a href="https://www.instagram.com/desenkevich" target="_blank"
+              >Follow me on Instagram</a
+            >
+          </li>
+        </ul>
+      </div>
 
-        <h2>Privacy Policy</h2>
-        <p>I do not collect any personal information from your use of my applications. If I happen to have any of your personal data, I will not sell or share it, unless legally required by a subpoena. If that happens, I'll provide you with a reasonable chance to contest it if allowed by law.</p>
+      <h2>Privacy Policy</h2>
+      <p>
+        I do not collect any personal information from your use of my
+        applications. If I happen to have any of your personal data, I will not
+        sell or share it, unless legally required by a subpoena. If that
+        happens, I'll provide you with a reasonable chance to contest it if
+        allowed by law.
+      </p>
     </section>
     <footer>
-        <p>© 2024 Denis Senkevich. All Rights Reserved.</p>
+      <p>© 2024 Denis Senkevich. All Rights Reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
